@@ -14,7 +14,7 @@ ll slow_power_modulo(ll a, ll b, ll m){
 }
 
 // recursive function with both a and b being long long will result in stack overflow
-// one of the manu reasons for using dynamic programing
+// one of the many reasons for using dynamic programing
 ll i_fast_power_modulo(ll a, ll b, ll m){
         ll ans = 1LL;
         while(b){
